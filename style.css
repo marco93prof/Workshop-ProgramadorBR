@@ -1,0 +1,139 @@
+/*#############################################*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+body {
+	font-size: 100%;
+	list-style-type: none;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #889;
+}
+
+/*#############################################*/
+
+.container {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+/*#############################################*/
+
+header {
+	padding: 10px;
+	text-align: center;
+	background-color: #85c;
+	color: #fff;
+}
+
+h1 {
+	font-size: 24px;
+	text-shadow: 2px 2px 1px #000;
+}
+
+/*#############################################*/
+
+main {
+	background-image: url(./images/people.jpg);
+	background-size: cover;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.form-container {
+	float: right;
+	width: 256px;
+	padding: 20px;
+	background-color: #fffb;
+}
+
+.form-container h2 {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.form-container form {
+	margin-top: 20px;
+}
+
+.form-data {
+	margin-top: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-data:focus, .form-data:active {
+	outline: 1px solid #85c;
+	box-shadow: 0 0 3px #85c;
+}
+
+.form-data:hover {
+	/* outline: none; */
+	outline: 1px solid #85c;
+}
+
+.form-container select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url("./images/arrow.jpg");
+	background-repeat: no-repeat;
+	background-position: calc(100% - 10px) center;
+}
+
+.form-container input[type="submit"] {
+	margin-top: 20px;
+	padding: 15px;
+	width: 100%;
+	font-weight: bold;
+	background-color: #85c;
+	color: #fff;
+
+}
+
+.form-container input[type="submit"]:hover {
+	box-shadow: 0 0 5px #85c;
+}
+
+.form-container input[type="submit"]:active {
+	background-color: #82c;
+}
+
+
+/*#############################################*/
+
+footer {
+	background-color: #202025;
+	padding: 40px;
+	text-align: center;
+}
+
+.face-img {
+	width: 160px;
+}
+
+.face-description {
+	display: inline-block;
+	max-width: 40%;
+	margin-left: 40px;
+	color: #eee;
+	text-align: left;
+}
+
+.face-description h3 {
+	font-size: 22px;	
+	margin-bottom: 25px;
+
+}
+
+.face-description p {
+	margin-top: 25px;
+}
