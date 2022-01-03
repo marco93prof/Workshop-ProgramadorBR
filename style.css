@@ -131,9 +131,53 @@ footer {
 .face-description h3 {
 	font-size: 22px;	
 	margin-bottom: 25px;
-
 }
 
 .face-description p {
 	margin-top: 25px;
+}
+
+/*#############################################*/
+/*#############################################*/
+
+
+@media (max-width: 798px) {
+	
+	h1 {
+		font-size: 20px;
+	}
+
+	.form-container {
+		float: none;
+		width: 90%;
+		max-width: 414px;
+		margin: 10px auto;
+	}
+
+	footer {
+		padding: 30px;
+	}
+	
+	.face-img {
+		width: 140px;
+	}
+	
+	.face-description {
+		display: block;
+		max-width: 356px;
+		margin: 20px auto;
+		
+	}
+	
+	.face-description h3 {
+		font-size: 18px;	
+		margin: 0;
+		text-align: center;
+	}
+	
+	.face-description p {
+		margin-top: 15px;
+		text-indent: 15px;
+	}
+
 }
